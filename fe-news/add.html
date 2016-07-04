@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>推荐文章-前端快报</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body>
+<h3 style="line-height:80px; text-align:center;">推荐文章给《前端快报》</h3>
+<form action="add.php" method="post" class="form-horizontal" style="width:50%; margin:0 auto;">
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="">文章标题</label>
+        <div class="col-sm-10">
+            <input class="form-control" type="text" name="newstitle" required="required" placeholder="文章标题">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="">文章URL</label>
+        <div class="col-sm-10">
+            <input class="form-control" type="text" name="newsurl" required="required" placeholder="文章URL">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="">文章描述</label>
+        <div class="col-sm-10">
+            <input class="form-control" type="text" name="newscontent" required="required" placeholder="文章描述">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for=""></label>
+        <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary">提交</button>
+        </div>
+    </div>
+    
+</form>
+</body>
+</html>
